@@ -2,7 +2,7 @@
 using namespace std;
 
 // Finding the waiting time
-void findWaitingTime(int processes[], int n, int bt[], int wt[], int quantum{
+void findWaitingTime(int processes[], int n, int bt[], int wt[], int quantum){
     
     // Create copies of burst time to calculate reminder burst time
     int rem_bt[n];
